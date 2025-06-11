@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    border: 5px;
+    border-style: double;
+    border-color: black;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+}
+
+a {
+    color: yellow;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 {
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    justify-content: center;
+}
