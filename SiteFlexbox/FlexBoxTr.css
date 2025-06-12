@@ -15,12 +15,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 nav {
     width: 95%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: gray;
     padding: 10px;
 }
@@ -42,12 +43,23 @@ div {
     border: 2px solid yellow;
 }
 
+table {
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+p {
+    color: yellow;
+}
 .mimg{
     width: 110px;
     height: 100px;
 }
 
 a {
+    color: yellow;
+}
+
+h3 {
     color: yellow;
 }
 
