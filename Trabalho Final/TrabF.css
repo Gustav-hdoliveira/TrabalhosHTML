@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+header, footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    border: 5px;
+    border-style: double;
+    border-color: black;
+    border-radius: 8px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    padding: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: dotted;
+    margin: 7px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-collapse: separate;
+    width: 80%;
+    
+}
+
+tbody tr {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+}
+
+.tTBL {
+    width: 160px;
+}
